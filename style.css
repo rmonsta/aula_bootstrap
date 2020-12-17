@@ -1,0 +1,13 @@
+.navbar {
+    background-image: url('img/tinytan_navbar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+}
