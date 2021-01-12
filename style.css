@@ -1,13 +1,238 @@
+.main {
+    background: linear-gradient(90deg, rgba(245,201,236,0.5) 0%, rgba(203,110,252,0.5) 50%, 
+    rgba(201,245,237,0.5) 100%);
+}
+ 
+ul, ol {
+    list-style: none;
+}
+
+h1 {
+    margin: 20px;
+    margin-bottom: 35px;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.bts-greeting {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+span {
+    font-style: normal;
+    line-height: 65px;
+}
+
 .navbar {
-    background-image: url('img/tinytan_navbar.png');
+    background-image: url('img/tinytan_navbarG.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
 
-#menu-icon {
-    width: 35px;
-    height: 5px;
-    background-color: #000;
-    margin: 6px 0;
+#tog-button {
+    max-width: 80px;
+    padding: 5px;
+}
+
+#tog-button:hover {
+    background: linear-gradient(90deg, rgba(203,110,252,0.5) 0%, rgba(245,201,236,0.5) 100%);
+}
+
+.nav-li {
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;
+    padding: 0.6rem;
+    display: block;
+    color: #212529;
+    text-decoration: none;
+    line-height: 0.5;
+    width: 6rem;
+}
+
+.nav-li:hover {
+    text-decoration: none;
+    color: rgb(134, 32, 189);
+    /* color: #212529; */
+    /* border: 2px solid #7300e6; */
+    font-weight: bolder;
+    text-shadow: 1px 1px #644983;
+    /* border-radius: 5px;  */
+}
+
+#home {
+    padding-top: 60px;
+    margin-top: 80px;
+}
+
+.gradJin {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(251,218,218,0.6292601513261555) 0%, rgba(227,43,193,0.6852825602897409) 39%, rgba(253,239,251,0.8729576303177521) 100%);
+}
+.gradSuga {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(71,71,104,0.6292601513261555) 0%, rgba(11,9,9,0.9121733165922619) 35%, rgba(71,71,104,0.7301004874606092) 100%);
+}
+.gradRM {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(77,79,164,1) 0%, rgba(157,187,218,1) 30%, rgba(74,76,131,1) 100%);
+}
+.gradHope {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(26,175,233,0.4583918039872199) 0%, rgba(252,254,255,0.8057307395614496) 35%, rgba(26,175,233,0.4948063698135504) 100%);
+}
+.gradJimin {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(249,235,62,0.8561509076286764) 0%, rgba(238,250,167,1) 35%, rgba(244,228,22,0.9121733165922619) 100%);
+}
+.gradV {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(120,250,89,1) 0%, rgba(246,248,236,1) 35%, rgba(83,215,51,0.9121733165922619) 100%);
+}
+.gradJK {
+    border: 20px transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 460px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(179,89,250,1) 0%, rgba(203,184,223,1) 35%, rgba(57,10,117,0.9906046891412815) 100%);
+}
+
+.bts-hi {
+    display: block;
+    width: 420px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.doUknow-gif {
+    display: block;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+.prof-img {
+    display: block;
+    width: 420px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5px;
+    padding: 0px; 
+}
+
+.footer {
+    background-color: #212529;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.valign {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.social {
+    background-image: url("img/bts-socialmedias-horz.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+@media only screen and (max-width: 600px) {
+    .main {
+        background: #fff;
+    }
+
+    .bts-hi {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .prof-img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .gradJin {
+        width: 350px;
+        height: 360px;
+    }
+    .gradSuga {
+        width: 350px;
+        height: 360px;
+    }
+    .gradRM {
+        width: 350px;
+        height: 360px;
+    }
+    .gradHope {
+        width: 350px;
+        height: 360px;
+    }
+    .gradJimin {
+        width: 350px;
+        height: 360px;
+    }
+    .gradV {
+        width: 350px;
+        height: 360px;
+    }
+    .gradJK {
+        width: 350px;
+        height: 360px;
+    }
+
 }
